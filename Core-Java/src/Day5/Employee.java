@@ -8,7 +8,7 @@ public class Employee {
     private boolean isEligibleForHike;
     private char rank;
 
-    //Parametrized constructor
+    //Parameterized constructor
     public Employee(int id, String name, float salary, boolean isEligibleForHike, char rank) {
         this.id = id;
         this.name = name;
@@ -17,7 +17,7 @@ public class Employee {
         this.rank = rank;
     }
 
-    //Non parametrized constructor
+    //Non parameterized constructor
     public Employee() {
         this.id = 0;
         this.name = null;
